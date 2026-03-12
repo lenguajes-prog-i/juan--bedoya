@@ -1,6 +1,6 @@
 print("David bedoya")  
 print("David Bedoya")
-print("David Bedoyad")
+print("David Bedoya")
 
 user = "david@uniremington.edu.co"
 password = "123456789"
