@@ -1,17 +1,14 @@
-print("Caleb Mora y David Bedoya")
-print("Caleb Mora y David Bedoya")
-print("Caleb Mora y David Bedoya")
-print("Caleb Mora y David Bedoya")
+print("David bedoya")  
+print("David Bedoya")
+print("David Bedoyad")
 
-name = input()
-print(name)
+user = "david@uniremington.edu.co"
+password = "123456789"
 
-user = "admin@uniremington.com"
-pasword = "admin123"
-user_input = input()
-pasword_input = input()
+user_input = input("Ingrese su correo electrónico: ")
+password_input = input("Ingrese su contraseña: ")
 
-if user_input== user and pasword_input== pasword:
-    print("bienvenido al sistema")
+if user_input == "david@uniremington.edu.co" and password_input == "123456789":
+    print("Inicio de sesión exitoso.")
 else:
-    print("usuarion no encontrado")
+    print("Correo electrónico o contraseña incorrectos.")
